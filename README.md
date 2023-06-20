@@ -20,6 +20,37 @@ $ which aws
   should return -> /usr/local/bin/aws 
 $ aws --version
   should return -> aws-cli/2.10.0 Python/3.11.2 Darwin/18.7.0 botocore/2.4.5
+  
+---------------------------------------
+Follow instructions to log into aws creditinals
+---------------------------------------
+
+https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html
+ 
+---------------------------------------
+Create IAM user that has Textract access role as well as S3 bucket
+---------------------------------------
+
+---------------------------------------
+Things to change
+---------------------------------------
+
+In analyzeText.py, change 
+'''client = session.client('textract', region_name='us-east-1')''' 
+the region name to your region
+
+'''    text = client.detect_document_text(
+        Document ={
+            'S3Object': {
+            'Bucket': 'jams122bucket',
+            'Name': filename
+        }
+        }
+    )
+ '''
+ 
+ change Bucket to your bucket name
+
 ---------------------------------------
 Running the project
 ---------------------------------------
