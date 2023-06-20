@@ -38,8 +38,10 @@ Things to change
 In analyzeText.py, change 
 
 ```client = session.client('textract', region_name='us-east-1')``` 
+
 the region name to your region
 
+---------------------------------------
 ```   text = client.detect_document_text(
         Document ={
             'S3Object': {
@@ -51,6 +53,7 @@ the region name to your region
 ```
  change Bucket to your bucket name
 
+---------------------------------------
 ---------------------------------------
 Running the project
 ---------------------------------------
