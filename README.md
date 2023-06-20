@@ -1,9 +1,7 @@
 # TextractProject
 
-# This project assumes you have a aws account to work with
+# This project assumes you have an aws account to work with
 
-
----------------------------------------
 To install all dependecies
 ---------------------------------------
 
