@@ -23,21 +23,22 @@ $ which aws
 $ aws --version
   should return -> aws-cli/2.10.0 Python/3.11.2 Darwin/18.7.0 botocore/2.4.5
   
----------------------------------------
-Follow instructions to log into aws creditinals
----------------------------------------
-
-https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html
  
 ---------------------------------------
 Create IAM user that has Textract access role as well as S3 bucket
+---------------------------------------
+
+https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html
 
 https://docs.aws.amazon.com/textract/latest/dg/security-iam.html
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html
 
 ---------------------------------------
+Follow instructions to log into aws creditinals
+---------------------------------------
 
+https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html
 ---------------------------------------
 Things to change
 ---------------------------------------
