@@ -1,4 +1,8 @@
 # TextractProject
+
+# This project assumes you have a aws account to work with
+
+
 ---------------------------------------
 To install all dependecies
 ---------------------------------------
@@ -29,6 +33,11 @@ https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html
  
 ---------------------------------------
 Create IAM user that has Textract access role as well as S3 bucket
+
+https://docs.aws.amazon.com/textract/latest/dg/security-iam.html
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html
+
 ---------------------------------------
 
 ---------------------------------------
