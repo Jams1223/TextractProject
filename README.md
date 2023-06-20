@@ -54,7 +54,6 @@ the region name to your region
  change Bucket to your bucket name
 
 ---------------------------------------
----------------------------------------
 Running the project
 ---------------------------------------
 
